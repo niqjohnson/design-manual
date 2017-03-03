@@ -14,7 +14,9 @@
   ],
   "scripts": {
     "start": "parallelshell 'bundle exec jekyll serve --watch --baseurl ''' 'grunt watch'",
-    "build": "grunt build"
+    "build": "grunt build",
+    "cf-link": "node scripts/npm/link",
+    "cf-unlink": "node scripts/npm/unlink"
   },
   "dependencies": {
     "cf-buttons": "^3.2.0",
@@ -34,6 +36,7 @@
     "jquery": "~1.11.0"
   },
   "devDependencies": {
+    "child-process-promise": "^2.2.0",
     "grunt": "~0.4.5",
     "grunt-autoprefixer": "~2.0.0",
     "grunt-banner": "~0.2.3",
