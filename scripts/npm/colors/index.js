@@ -2,7 +2,6 @@
 
 var path = require( 'path' );
 var fs = require( 'fs' );
-var exec = require( 'child-process-promise' ).exec;
 var parseCSV = require( 'csv' ).parse;
 var transformCSV = require( 'csv' ).transform;
 var root = path.join( __dirname, '..', '..', '..' );
