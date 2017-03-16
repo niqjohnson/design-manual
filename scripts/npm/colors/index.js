@@ -5,6 +5,7 @@ var fs = require( 'fs' );
 var parseCSV = require( 'csv' ).parse;
 var transformCSV = require( 'csv' ).transform;
 var root = path.join( __dirname, '..', '..', '..' );
+var templateSource = path.join( root, 'scripts', 'npm', 'colors', 'template.txt' );
 var colorsSource = path.join( root, '_data', 'cfpb-brand-colors.csv' );
 var colorsLess = path.join( root, '_data', 'colors.less' );
 var family;
@@ -25,10 +26,9 @@ var transformer = transformCSV( function( record, callback ) {
 
       callback( null, block + '@' + record[1] + ': ' + record[3] + ';\n' );
     }, 500 );
-  }, { parallel: 10 } );
+  }, { parallel: 100 } );
 
 fs.createReadStream( colorsSource )
   .pipe( parseCSV() )
   .pipe( transformer )
   .pipe( fs.createWriteStream( colorsLess ) );
-
