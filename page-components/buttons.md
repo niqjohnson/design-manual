@@ -12,7 +12,7 @@ redirect_from: "/ui-toolkit/buttons.html"
 
 <div class="content-50 content-first">
 
-Buttons signal actions. They should be used sparingly; each additional button on a page reduces the visual prominence of a call to action. 
+Buttons signal actions. They should be used sparingly; each additional button on a page reduces the visual prominence of a call to action.
 {: class="lead-in"}
 
 In contrast, <a href="/design-manual/ui-toolkit/links.html">links</a> should lead users to another page or further information.
@@ -56,9 +56,9 @@ In contrast, <a href="/design-manual/ui-toolkit/links.html">links</a> should lea
 
 <div class="content-33 content-last">
 
-{::nomarkdown}  
-<button class="btn">Sign up</button>
-<button class="btn btn__link">Log in</button>
+{::nomarkdown}
+<button class="a-btn">Sign up</button>
+<button class="a-btn a-btn__link">Log in</button>
 {:/nomarkdown}
 
 </div>
@@ -72,8 +72,8 @@ In contrast, <a href="/design-manual/ui-toolkit/links.html">links</a> should lea
 
 <div class="content-33 content-last">
 
-{::nomarkdown}  
-<button class="btn btn__secondary">Secondary button</button>
+{::nomarkdown}
+<button class="a-btn a-btn__secondary">Secondary button</button>
 {:/nomarkdown}
 
 </div>
@@ -89,10 +89,10 @@ In contrast, <a href="/design-manual/ui-toolkit/links.html">links</a> should lea
 
 <div class="content-67 content-last">
 
-{::nomarkdown}  
-<button class="btn">Sign up</button><br><br>
-<button class="btn">Continue</button><br><br>
-<button class="btn">A longer label example</button>
+{::nomarkdown}
+<button class="a-btn">Sign up</button><br><br>
+<button class="a-btn">Continue</button><br><br>
+<button class="a-btn">A longer label example</button>
 {:/nomarkdown}
 
 </div>
@@ -107,20 +107,20 @@ In contrast, <a href="/design-manual/ui-toolkit/links.html">links</a> should lea
 <div class="content-67 content-last">
 #### Placement
 
-{::nomarkdown}  
-<button class="btn">
-    <span class="btn_icon__left cf-icon cf-icon-upload"></span>
+{::nomarkdown}
+<button class="a-btn">
+    <span class="a-btn_icon__left cf-icon cf-icon-upload"></span>
     Upload document
 </button>
 <br><br>
 
-<button class="btn">
-    <span class="btn_icon__left cf-icon cf-icon-left"></span>
+<button class="a-btn">
+    <span class="a-btn_icon__left cf-icon cf-icon-left"></span>
     Back
 </button>
-<button class="btn">
+<button class="a-btn">
     Next
-    <span class="btn_icon__right cf-icon cf-icon-right"></span>
+    <span class="a-btn_icon__right cf-icon cf-icon-right"></span>
 </button>
 {:/nomarkdown}
 
@@ -136,8 +136,8 @@ In contrast, <a href="/design-manual/ui-toolkit/links.html">links</a> should lea
 
 <div class="content-67 content-last">
 
-{::nomarkdown}  
-<button class="btn">Sign up</button>
+{::nomarkdown}
+<button class="a-btn">Sign up</button>
 {:/nomarkdown}
 
 </div>
@@ -145,14 +145,14 @@ In contrast, <a href="/design-manual/ui-toolkit/links.html">links</a> should lea
 ---
 
 <div class="content-33 content-first">
-#### Hover/Focused 
+#### Hover/Focused
 * Pacific 80% background color
 </div>
 
 <div class="content-67 content-last">
 
-{::nomarkdown}  
-<button class="btn hover">Sign up</button>
+{::nomarkdown}
+<button class="a-btn hover">Sign up</button>
 {:/nomarkdown}
 
 </div>
@@ -166,8 +166,8 @@ In contrast, <a href="/design-manual/ui-toolkit/links.html">links</a> should lea
 
 <div class="content-67 content-last">
 
-{::nomarkdown}  
-<button class="btn active">Sign up</button>
+{::nomarkdown}
+<button class="a-btn active">Sign up</button>
 {:/nomarkdown}
 
 </div>
@@ -184,8 +184,8 @@ In contrast, <a href="/design-manual/ui-toolkit/links.html">links</a> should lea
 
 <div class="content-67 content-last">
 
-{::nomarkdown}  
-<button class="btn btn__disabled">Sign up</button>
+{::nomarkdown}
+<button class="a-btn a-btn__disabled">Sign up</button>
 {:/nomarkdown}
 
 </div>
@@ -202,9 +202,9 @@ In contrast, <a href="/design-manual/ui-toolkit/links.html">links</a> should lea
 
 <div class="content-67 content-last">
 
-{::nomarkdown}   
-<button class="btn btn__super">Sign up</button>
-{:/nomarkdown} 
+{::nomarkdown}
+<button class="a-btn a-btn__super">Sign up</button>
+{:/nomarkdown}
 
 </div>
 
@@ -216,11 +216,11 @@ In contrast, <a href="/design-manual/ui-toolkit/links.html">links</a> should lea
 
 <div class="content-67 content-last">
 
-{::nomarkdown}   
-<button class="btn btn__grouped-first">Button 1</button>
-<button class="btn btn__grouped">Button 2</button>
-<button class="btn btn__grouped-last">Button 3</button>
-{:/nomarkdown} 
+{::nomarkdown}
+<button class="a-btn a-btn__grouped-first">Button 1</button>
+<button class="a-btn a-btn__grouped">Button 2</button>
+<button class="a-btn a-btn__grouped-last">Button 3</button>
+{:/nomarkdown}
 
 </div>
 
@@ -233,10 +233,10 @@ In contrast, <a href="/design-manual/ui-toolkit/links.html">links</a> should lea
 
 <div class="content-67 content-last">
 
-{::nomarkdown}   
-<button class="btn btn__grouped-first">Button</button>
-<button class="btn btn__grouped-last btn__compound-action"><span class="cf-icon cf-icon-down"></span></button>
-{:/nomarkdown} 
+{::nomarkdown}
+<button class="a-btn a-btn__grouped-first">Button</button>
+<button class="a-btn a-btn__grouped-last a-btn__compound-action"><span class="cf-icon cf-icon-down"></span></button>
+{:/nomarkdown}
 
 </div>
 
@@ -250,9 +250,9 @@ In contrast, <a href="/design-manual/ui-toolkit/links.html">links</a> should lea
 
 <div class="content-67 content-last">
 
-{::nomarkdown}   
-<button class="btn">Action</button>
-<button class="btn btn__link btn__warning">Destructive action</button>
-{:/nomarkdown} 
+{::nomarkdown}
+<button class="a-btn">Action</button>
+<button class="a-btn a-btn__link a-btn__warning">Destructive action</button>
+{:/nomarkdown}
 
 </div>
